@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SMM Store</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0b0b10;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(180deg, #191927, #0b0b10);
+    }
+
+    header h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #aaa;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px 60px;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .title h2 {
+      font-size: 30px;
+    }
+
+    .title p {
+      color: #888;
+      margin-top: 8px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #15151e;
+      border: 1px solid #292936;
+      border-radius: 18px;
+      padding: 24px;
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #555;
+    }
+
+    .icon {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #999;
+      line-height: 1.5;
+      min-height: 48px;
+    }
+
+    .price {
+      font-size: 21px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .order {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: #25d366;
+      color: #071008;
+      padding: 13px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .order:hover {
+      filter: brightness(1.1);
+    }
+
+    .rules {
+      margin-top: 
