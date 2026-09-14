@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SMM Store</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0b0b10;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(180deg, #191927, #0b0b10);
+    }
+
+    header h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #aaa;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px 60px;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .title h2 {
+      font-size: 30px;
+    }
+
+    .title p {
+      color: #888;
+      margin-top: 8px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #15151e;
+      border: 1px solid #292936;
+      border-radius: 18px;
+      padding: 24px;
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #555;
+    }
+
+    .icon {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #999;
+      line-height: 1.5;
+      min-height: 48px;
+    }
+
+    .price {
+      font-size: 21px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .order {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: #25d366;
+      color: #071008;
+      padding: 13px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .order:hover {
+      filter: brightness(1.1);
+    }
+
+    .rules {
+      margin-top: 30px;
+      padding: 22px;
+      background: #111119;
+      border: 1px solid #292936;
+      border-radius: 15px;
+      color: #aaa;
+      line-height: 1.8;
+    }
+
+    .rules b {
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      color: #666;
+      padding: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🚀 SMM Store</h1>
+    <p>Layanan Social Media Marketing</p>
+  </header>
+
+  <main class="container">
+
+    <div class="title">
+      <h2>🛒 Produk SMM</h2>
+      <p>Pilih layanan yang kamu butuhkan</p>
+    </div>
+
+    <div class="products">
+
+      <!-- WhatsApp Follower -->
+      <div class="card">
+        <div class="icon">📢</div>
+
+        <h3>Follower Saluran WhatsApp</h3>
+
+        <p>
+          Tambah follower saluran WhatsApp
+          sesuai jumlah yang kamu butuhkan.
+        </p>
+
+        <div class="price">
+          Mulai Rp6.000
+        </div>
+
+        <a
+          class="order"
+          href="https://wa.me/6285165197664?text=Halo%20Kak%2C%20aku%20mau%20order%20Follower%20Saluran%20WhatsApp."
+          target="_blank">
+          Order via WhatsApp
+        </a>
+      </div>
+
+
+      <!-- Instagram Follower -->
+      <div class="card">
+        <div class="icon">📸</div>
+
+        <h3>Follower Instagram</h3>
+
+        <p>
+          Tambah follower Instagram
+          sesuai jumlah yang kamu butuhkan.
+        </p>
+
+        <div class="price">
+          Mulai Rp7.000
+        </div>
+
+        <a
+          class="order"
+          href="https://wa.me/6285165197664?text=Halo%20Kak%2C%20aku%20mau%20order%20Follower%20Instagram."
+          target="_blank">
+          Order via WhatsApp
+        </a>
+      </div>
+
+
+      <!-- TikTok Like -->
+      <div class="card">
+        <div class="icon">❤️</div>
+
+        <h3>Like TikTok</h3>
+
+        <p>
+          Tambah like untuk video TikTok
+          yang kamu pilih.
+        </p>
+
+        <div class="price">
+          Mulai Rp3.500
+        </div>
+
+        <a
+          class="order"
+          href="https://wa.me/6285165197664?text=Halo%20Kak%2C%20aku%20mau%20order%20Like%20TikTok."
+          target="_blank">
+          Order via WhatsApp
+        </a>
+      </div>
+
+
+      <!-- Instagram Like -->
+      <div class="card">
+        <div class="icon">❤️</div>
+
+        <h3>Like Instagram</h3>
+
+        <p>
+          Tambah like untuk postingan
+          Instagram yang kamu pilih.
+        </p>
+
+        <div class="price">
+          Mulai Rp3.500
+        </div>
+
+        <a
+          class="order"
+          href="https://wa.me/6285165197664?text=Halo%20Kak%2C%20aku%20mau%20order%20Like%20Instagram."
+          target="_blank">
+          Order via WhatsApp
+        </a>
+      </div>
+
+
+      <!-- WhatsApp Up Vote -->
+      <div class="card">
+        <div class="icon">👍</div>
+
+        <h3>Up Votes Saluran WhatsApp</h3>
+
+        <p>
+          Tambah up vote saluran WhatsApp
+          sesuai kebutuhan.
+        </p>
+
+        <div class="price">
+          Mulai Rp6.000
+        </div>
+
+        <a
+          class="order"
+          href="https://wa.me/6285165197664?text=Halo%20Kak%2C%20aku%20mau%20order%20Up%20Votes%20Saluran%20WhatsApp."
+          target="_blank">
+          Order via WhatsApp
+        </a>
+      </div>
+
+    </div>
+
+
+    <!-- Ketentuan -->
+    <div class="rules">
+      <b>📌 Ketentuan Order</b><br>
+
+      • No refill / garansi pengisian ulang<br>
+      • Ga nego<br>
+      • Ga php<br>
+      • Salah kasih format = tidak ada penggantian<br>
+      • Setelah order diproses, penurunan follower tidak mendapat penggantian
+    </div>
+
+  </main>
+
+
+  <footer>
+    © 2026 SMM Store • All Rights Reserved
+  </footer>
+
+</body>
+</html>
